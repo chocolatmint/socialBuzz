@@ -2,19 +2,21 @@
 require_once('TwitterAPIExchange.php');
 
 $settings = array(
-    'oauth_access_token' => "Y9suzaK9NNr0UnPtrfOoNH8wuCafNlv",
-    'oauth_access_token_secret' => "C7hqRstTe3ZED6bCawhkXHXGDA75eUg9Kg7gTa5dnK6sK",
-    'consumer_key' => "ECoBgGriuOKo3EzQi6Jt3HRS6",
-    'consumer_secret' => "to2p0M3RTZ4XMGiwnUmst1ZXXjOQXpVaQFoJDbBY70KvhJPU5M"
+    'oauth_access_token' => "162992258-2A0QqhZyiBmLr3jdtOHkA0WD05FefXCZK9DO5mfG",
+    'oauth_access_token_secret' => "Z7UegYSXH4lpme1h71F9qVPildIIyjpb46hsCSnrOu7XG",
+    'consumer_key' => "mnmOQqDxJQOc7ID8a2L2PnRKv",
+    'consumer_secret' => "bqcvmToLbN8Ftxs0hekmrDNfE67YOQQYTTA2vJjaWSJy0QAEeR"
 );
  
-$url = 'https://api.twitter.com/1.1/followers/ids.json';
-//url = 'https://api.twitter.com/1.1/users/show.json';
+$url = 'https://api.twitter.com/1.1/users/show.json';
 $requestMethod = 'GET';
 //$getfield = '?screen_name=taylorswift13';
 $getfield = '?user_id=17919972';
 $twitter = new TwitterAPIExchange($settings);
-echo $twitter->setGetfield($getfield)
+$result = $twitter->setGetfield($getfield)
     ->buildOauth($url, $requestMethod)
     ->performRequest();
+echo "$result\n";
+$details = json_decode($result,true);
+echo "followers:".$details['followers_count']; 
 ?>
