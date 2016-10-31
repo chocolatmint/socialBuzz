@@ -1,7 +1,5 @@
 <?php
-
 //10207431316249499
-
 $fb_page = '19614945368/';
 $fields  =  '?fields=fan_count&';
 $access_token = '1130511983664860|yG2_cF1PL3l012qB0WAcHKKe2AQ';
@@ -11,9 +9,18 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 $result = curl_exec($curl);  
 curl_close($curl);
-echo $result.'<br>';
 $details = json_decode($result,true);
-echo "Likes:".$details['fan_count']; 
-
-
+$follower=$details['fan_count'];
+if ($follower<1000){
+	$follower=$follower;
+}
+else if($follower>=1000&&$follower<1000000){
+	$follower=floor($follower/1000);
+	$follower=$follower."K";
+}
+else if ($follower>=1000000){
+	 $follower=floor($follower/1000000);
+	 $follower=$follower."M";
+}
+echo "Likes: $follower";
 ?>
