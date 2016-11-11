@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en">
 <head>
 
    <!--- Basic Page Needs
@@ -91,12 +89,12 @@
             <h2>About Me</h2>
 
             <p>Taylor Alison Swift (lahir 13 Desember 1989) adalah penyanyi-penulis lagu dan aktris asal Amerika Serikat. Dibesarkan di Wyomissing, Pennsylvania, ia pindah ke Nashville, Tennessee, pada usia 14 untuk mengejar karier di musik country. Dia menandatangani kontrak dengan label independen Big Machine Records dan menjadi penulis lagu termuda yang pernah dipekerjakan oleh Sony/ATV Music publishing house. Perilisan dari self-titled debut album Swift pada tahun 2006 menjadikannya sebagai bintang musik country. Single ketiganya, "Our Song" menjadikannya sebagai orang termuda yang sendirian menulis dan menampilkan lagu nomor satu di Hot Country Songs chart. Dia menerima nominasi Best New Artist di Grammy Awards 2008.
-			</p>
-			<p>
-			Album kedua Swift, Fearless, dirilis pada tahun 2008. Didukung oleh keberhasilan single "Love Story" dan "You Belong with Me," Fearless menjadi album terlaris tahun 2009 di Amerika Serikat. Album ini memenangkan empat Grammy Awards, membuat Swift menjadi pemenang termuda Album of the Year. Album ketiga dan keempat Swift, Speak Now 2010 dan Red 2012, keduanya terjual lebih dari satu juta kopi dalam minggu pertama rilis di AS. Speak Now "Mean" memenangkan dua Grammy Awards, sementara single di album Red "We Are Never Ever Getting Back Together" dan "I Knew You Were Trouble" menjadi hits di seluruh dunia. Album kelima Swift, yang fokus ke pop 1989, dirilis pada tahun 2014 dan terjual lebih banyak dalam minggu pembukaannya dari album-album lain selama 12 tahun terakhir, membuat Swift menjadi artis pertama dan satu-satunya yang memiliki tiga album terjual lebih dari satu juta kopi di minggu pertama rilis. Single "Shake It Off", "Blank Space", dan "Bad Blood" mencapai nomor satu pada Billboard Hot 100.
-			</p>
-			<p>
-			Swift dikenal atas narasi lagu tentang pengalaman pribadinya. Sebagai penulis lagu, dia telah diberi penghargaan oleh Nashville Songwriters Association dan Songwriters Hall of Fame. Prestasi lainnya swift termasuk tujuh Grammy Awards, 22 Billboard Music Awards, 11 Country Music Association Awards, delapan Academy of Country Music Awards, dan satu Brit Awards. Dia adalah salah satu best-selling artists of all time, telah menjual lebih dari 40 juta album-termasuk 27,1 juta di AS-dan 130 juta download single. Swift juga menjadi peran pendukung dalam beberapa film termasuk Valentine's Day (2010) dan The Giver (2014). Pada 2015, Swift menjadi wanita termuda yang pernah dimasukkan dalam daftar Forbes "100 Most Powerful Women", berada peringkat di nomor 64.
+   			</p>
+   			<p>
+   			Album kedua Swift, Fearless, dirilis pada tahun 2008. Didukung oleh keberhasilan single "Love Story" dan "You Belong with Me," Fearless menjadi album terlaris tahun 2009 di Amerika Serikat. Album ini memenangkan empat Grammy Awards, membuat Swift menjadi pemenang termuda Album of the Year. Album ketiga dan keempat Swift, Speak Now 2010 dan Red 2012, keduanya terjual lebih dari satu juta kopi dalam minggu pertama rilis di AS. Speak Now "Mean" memenangkan dua Grammy Awards, sementara single di album Red "We Are Never Ever Getting Back Together" dan "I Knew You Were Trouble" menjadi hits di seluruh dunia. Album kelima Swift, yang fokus ke pop 1989, dirilis pada tahun 2014 dan terjual lebih banyak dalam minggu pembukaannya dari album-album lain selama 12 tahun terakhir, membuat Swift menjadi artis pertama dan satu-satunya yang memiliki tiga album terjual lebih dari satu juta kopi di minggu pertama rilis. Single "Shake It Off", "Blank Space", dan "Bad Blood" mencapai nomor satu pada Billboard Hot 100.
+   			</p>
+   			<p>
+   			Swift dikenal atas narasi lagu tentang pengalaman pribadinya. Sebagai penulis lagu, dia telah diberi penghargaan oleh Nashville Songwriters Association dan Songwriters Hall of Fame. Prestasi lainnya swift termasuk tujuh Grammy Awards, 22 Billboard Music Awards, 11 Country Music Association Awards, delapan Academy of Country Music Awards, dan satu Brit Awards. Dia adalah salah satu best-selling artists of all time, telah menjual lebih dari 40 juta album-termasuk 27,1 juta di AS-dan 130 juta download single. Swift juga menjadi peran pendukung dalam beberapa film termasuk Valentine's Day (2010) dan The Giver (2014). Pada 2015, Swift menjadi wanita termuda yang pernah dimasukkan dalam daftar Forbes "100 Most Powerful Women", berada peringkat di nomor 64.
             </p>
 
             <div class="row">
@@ -130,7 +128,7 @@
    <section id="resume">
 
       <!-- Education
-      ----------------------------------------------- -->
+      ================================================== -->
       <div class="row education">
 
          <div class="three columns header-col">
@@ -244,36 +242,26 @@
 	<!-- Portfolio Section
    ================================================== -->
    <section id="portfolio">
-
       <div class="row">
-
          <div class="twelve columns collapsed">
-
             <h1>Followers Count</h1>
-
             <!-- portfolio-wrapper -->
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
           	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
+                  <div class="item-wrap">                     
                         <img alt="" src="images/portfolio/coffee.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
           					      <h5>Twitter</h5>
                               <p>Followers</p>
           					   </div>
-                        </div>                        
-                     </a>
-
+                        </div>           
                   </div>
           		</div> <!-- item end -->
 
                <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
+                  <div class="item-wrap">                     
                         <img alt="" src="images/portfolio/console.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -287,16 +275,12 @@
                            include("twitter.php");
                         ?>
                         </b>
-						</div>
-                     </a>
-
+						      </div>
                   </div>
           		</div> <!-- item end -->
 
                <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
+                  <div class="item-wrap">                     
                         <img alt="" src="images/portfolio/judah.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -304,30 +288,23 @@
                               <p>Likes</p>
           					   </div>
                         </div>
-                        
-                     </a>
-
                   </div>
           		</div> <!-- item end -->
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a title="">
                         <img alt="" src="images/portfolio/into-the-light.jpg">						
                         <div class="overlay">			
                            <div class="portfolio-item-meta">
-							<h5>Facebook</h5>
+							         <h5>Facebook</h5>
                               <p>Likes</p>
           					   </div>
                         </div>
-                        <div class="link-icon" style="color:fff; margin=0px; padding=0px; "><b>						
+                        <div class="link-icon" style="color:fff; margin=0px; padding=0px; "><b>				
 						      <?php
                            include("fb.php");
                         ?>
 						</b></div>
-                     </a>
-
                   </div>
           		</div> <!-- item end -->
 
