@@ -239,37 +239,6 @@
       </div> <!-- End Education -->
 
 
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Social Media:</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Facebook</h3>
-                  <p class="info">Official Facebook Page of Taylor Swift <span>&bull;</span> <em class="date">April 2007</em></p>
-
-                  <p>
-                  Nanti ini di isi yang facebook
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-
-
    </section> <!-- Resume Section End-->
 
 	<!-- Portfolio Section
@@ -292,11 +261,10 @@
                         <img alt="" src="images/portfolio/coffee.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Coffee</h5>
-                              <p>Illustrration</p>
+          					      <h5>Twitter</h5>
+                              <p>Followers</p>
           					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
+                        </div>                        
                      </a>
 
                   </div>
@@ -309,11 +277,17 @@
                         <img alt="" src="images/portfolio/console.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                              <p>Web Development</p>
+          					      <h5>Twitter</h5>
+                              <p>Followers</p>
           					   </div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
+                        <div class="link-icon">
+                        <b>
+						      <?php
+                           include("twitter.php");
+                        ?>
+                        </b>
+						</div>
                      </a>
 
                   </div>
@@ -326,11 +300,11 @@
                         <img alt="" src="images/portfolio/judah.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Webdesign</p>
+          					      <h5>Facebook</h5>
+                              <p>Likes</p>
           					   </div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
+                        
                      </a>
 
                   </div>
@@ -339,15 +313,19 @@
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg">
-                        <div class="overlay">
+                     <a title="">
+                        <img alt="" src="images/portfolio/into-the-light.jpg">						
+                        <div class="overlay">			
                            <div class="portfolio-item-meta">
-          					      <h5>Into The Light</h5>
-                              <p>Photography</p>
+							<h5>Facebook</h5>
+                              <p>Likes</p>
           					   </div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
+                        <div class="link-icon" style="color:fff; margin=0px; padding=0px; "><b>						
+						      <?php
+                           include("fb.php");
+                        ?>
+						</b></div>
                      </a>
 
                   </div>
@@ -358,6 +336,18 @@
             </div> <!-- portfolio-wrapper end -->
 
          </div> <!-- twelve columns end -->
+		
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+   
+   
+   
+   
+   
+   
+   
+   
    
    <!-- footer
    ================================================== -->
