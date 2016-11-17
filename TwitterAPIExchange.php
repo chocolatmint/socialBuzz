@@ -259,13 +259,9 @@ class TwitterAPIExchange
             }
         }
         $feed = curl_init();
-<<<<<<< HEAD
-        curl_setopt_array($feed, $options);
-=======
       curl_setopt($feed, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt_array($feed, $options);
 
->>>>>>> 6c705e51f95f67c592baa770f547995e694d4e0d
         $json = curl_exec($feed);
         $this->httpStatusCode = curl_getinfo($feed, CURLINFO_HTTP_CODE);
         if (($error = curl_error($feed)) !== '')
@@ -349,12 +345,8 @@ class TwitterAPIExchange
     {
         return $this->httpStatusCode;
     }
-<<<<<<< HEAD
-}
-=======
 
     
     
 }
 ?>
->>>>>>> 6c705e51f95f67c592baa770f547995e694d4e0d
